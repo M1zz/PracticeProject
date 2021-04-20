@@ -16,6 +16,7 @@
 		A50CC39D262C20D600618C90 /* PracticeModalPresentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CC39C262C20D600618C90 /* PracticeModalPresentTests.swift */; };
 		A50CC3A8262C20D600618C90 /* PracticeModalPresentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CC3A7262C20D600618C90 /* PracticeModalPresentUITests.swift */; };
 		A50CC3BA262C21CF00618C90 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CC3B8262C21CF00618C90 /* NewViewController.swift */; };
+		A50CC44D262E777000618C90 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CC44C262E777000618C90 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A50CC3A7262C20D600618C90 /* PracticeModalPresentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModalPresentUITests.swift; sourceTree = "<group>"; };
 		A50CC3A9262C20D600618C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50CC3B8262C21CF00618C90 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		A50CC44C262E777000618C90 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A50CC38E262C20D500618C90 /* Assets.xcassets */,
 				A50CC390262C20D500618C90 /* LaunchScreen.storyboard */,
 				A50CC393262C20D500618C90 /* Info.plist */,
+				A50CC44C262E777000618C90 /* MyViewController.swift */,
 			);
 			path = PracticeModalPresent;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				A50CC38A262C20D400618C90 /* ViewController.swift in Sources */,
 				A50CC386262C20D400618C90 /* AppDelegate.swift in Sources */,
 				A50CC388262C20D400618C90 /* SceneDelegate.swift in Sources */,
+				A50CC44D262E777000618C90 /* MyViewController.swift in Sources */,
 				A50CC3BA262C21CF00618C90 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
